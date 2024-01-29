@@ -106,7 +106,7 @@ jobs:
         id: Sast_Scan_and_upload_to_veracode
         uses: veracode/veracode-uploadandscan-action@0.2.6
         with:
-          appname: 'VeraDemo'
+          appname: 'VeraDemo-GithubActions'
           # createprofile: false, indicates that the application not will be created.
           createprofile: true
           # Filepath can be a compiled file (jar or war) or zip file with code.
